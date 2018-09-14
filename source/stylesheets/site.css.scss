@@ -59,11 +59,11 @@ p {
 .hero-container {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/hero.jpg");
-  width: 1024px;
-  height: 550px;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  height: 550px;
   color: #ffffff;
 }
 
