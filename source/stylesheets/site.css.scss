@@ -24,11 +24,30 @@ p {
 // site
 
 .site-container {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   font-family: 'Encode Sans Condensed', sans-serif;
   color: #333333;
   max-width: 1024px;
+  min-height: 100vh;
   margin: 0 auto;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.footer-icon {
+  margin-right: 0.25rem;
 }
 
 .link {
@@ -92,6 +111,7 @@ p {
 }
 
 .details-container {
+  flex: 1;
   margin: 4rem 0;
 }
 
